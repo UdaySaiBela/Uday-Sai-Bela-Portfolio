@@ -65,9 +65,7 @@ udaysaibela.github.io/
 ├── style.css           # Main stylesheet
 ├── animation.css       # Animation styles
 ├── script.js           # JavaScript functionality
-├── images/             # Image assets
-│   ├── profile.jpeg    # Profile picture
-│   └── girl.png        # Template image
+├── profile.jpeg        # Profile picture
 └── Uday Sai Bela CV.pdf # Resume/CV
 ```
 
@@ -89,4 +87,5 @@ This project is open source and available for personal use.
 - Template inspired by modern portfolio designs
 - Icons provided by Font Awesome and Bootstrap Icons
 - Typed.js for animated text effects
+
 
