@@ -370,3 +370,282 @@ section {
     color: var(--dark-clr) !important;
     transform: scale(1.05);
 }
+/* ============================================
+   MOBILE RESPONSIVE STYLES
+   ============================================ */
+
+/* Tablet and below (768px and smaller) */
+@media (max-width: 768px) {
+    /* Body padding adjustment */
+    body {
+        padding-top: 70px;
+    }
+
+    /* Header and Navigation */
+    header {
+        padding: 0.5rem 0;
+    }
+
+    .navbar {
+        padding: 0.5rem 5%;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .navbar ul {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar ul li a {
+        font-size: 1rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .cvbtn {
+        font-size: 1rem;
+        padding: 8px 12px;
+        margin-top: 0.5rem;
+    }
+
+    /* Sections */
+    section {
+        padding: 3rem 5%;
+        scroll-margin-top: 80px;
+    }
+
+    /* Hero Section */
+    .hero-container {
+        flex-direction: column;
+        padding: 3rem 5%;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin: 1.5rem 0;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-width: unset;
+    }
+
+    /* Buttons */
+    .hero-btn {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 250px;
+        font-size: 1.1rem;
+    }
+
+    /* Stats Section */
+    .stats {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .stats .stat {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--light-text-clr);
+        padding-right: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .stats .stat:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .stats .stat h2 {
+        font-size: 2.5rem;
+    }
+
+    .stats .stat span {
+        font-size: 1rem;
+    }
+
+    /* Social Icons */
+    .social-icons {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .social-icons a {
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile phones (480px and smaller) */
+@media (max-width: 480px) {
+    /* Header */
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        padding: 0.5rem 3%;
+    }
+
+    .navbar ul {
+        gap: 0.3rem;
+    }
+
+    .navbar ul li a {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .cvbtn {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    /* Sections */
+    section {
+        padding: 2rem 3%;
+    }
+
+    /* Hero Section */
+    .hero-container {
+        padding: 2rem 3%;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.3rem;
+    }
+
+    .hero-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+    }
+
+    .hero-image {
+        padding: 10px;
+    }
+
+    .hero-image img {
+        max-width: 280px;
+    }
+
+    /* Buttons */
+    .btn {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    /* Stats */
+    .stats .stat h2 {
+        font-size: 2rem;
+    }
+
+    /* Container adjustments */
+    .container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    /* Cards and sections */
+    .experience-item,
+    .certification-item,
+    .skill-card,
+    .contact-info-card {
+        padding: 1rem !important;
+    }
+
+    /* Form elements */
+    .form-control {
+        font-size: 0.9rem;
+        padding: 0.75rem !important;
+    }
+
+    /* Project cards */
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Small mobile devices (360px and smaller) */
+@media (max-width: 360px) {
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .navbar ul li a {
+        font-size: 0.85rem;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-image img {
+        max-width: 250px;
+    }
+
+    .btn {
+        font-size: 0.95rem;
+    }
+}
+
+/* Landscape mobile orientation */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero-container {
+        flex-direction: row;
+    }
+
+    .hero-content {
+        max-width: 50%;
+    }
+
+    .hero-image {
+        max-width: 45%;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+}
