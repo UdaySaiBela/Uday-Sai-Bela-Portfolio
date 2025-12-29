@@ -76,7 +76,7 @@ udaysaibela.github.io/
 - 📧 Email: udaysaibela@gmail.com
 - 📱 Phone: 571-530-9100
 - 💼 LinkedIn: [Uday Sai Bela](https://www.linkedin.com/in/uday-sai-bela-3345531a2/)
-- 🌐 Portfolio: [udaysaibela.github.io](https://udaysaibela.github.io)
+- 🌐 Portfolio: [udaysaibela.github.io](https://udaysaibela.github.io/Uday-Sai-Bela-Portfolio/)
 
 ## 📄 License
 
@@ -87,5 +87,6 @@ This project is open source and available for personal use.
 - Template inspired by modern portfolio designs
 - Icons provided by Font Awesome and Bootstrap Icons
 - Typed.js for animated text effects
+
 
 
